@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package latihan2;
 
-/**
- *
- * @author acer
- */
 public class DataDiriBeraksi {
-    
+    public static void main(String[] args) {
+        // Buat objek dari class DataDiri
+        DataDiri bitha = new DataDiri("Bitha", "2310010152", "4D");
+
+        // Tampilkan data (opsional)
+        System.out.println("Nama: " + bitha.nama);
+        System.out.println("NPM: " + bitha.npm);
+        System.out.println("Kelas: " + bitha.kelas);
+    }
 }
